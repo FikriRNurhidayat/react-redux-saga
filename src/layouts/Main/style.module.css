@@ -1,0 +1,36 @@
+.main {
+  height: 100vh;
+}
+
+.header {
+  height: 64px;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #733572;
+}
+
+.logo {
+  height: 100%;
+}
+
+.contentContainer {
+  margin: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: top;
+  margin: 2em;
+}
+
+.topMenu {
+  background: none !important;
+  display: flex;
+  align-items: center;
+}

@@ -7,6 +7,7 @@ import {
 } from '@ant-design/icons'
 import Menu from '../../views/layouts/Menu'
 import Breadcrumb from '../../views/layouts/Breadcrumb'
+import Dropdown from '../../views/components/Dropdown'
 
 /* Assets */
 import Logo from '../../assets/images/Binar.svg'
@@ -41,6 +42,9 @@ export default ({ children }) => {
                   onClick: toggleMenu,
               })}
               <Breadcrumb />
+            </Space>
+            <Space size="large">
+              <Dropdown.User />
             </Space>
           </Header>
           <Content>

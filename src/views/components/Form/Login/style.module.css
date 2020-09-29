@@ -1,0 +1,24 @@
+.cover {
+  background: #733572; 
+  padding: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover img {
+  max-height: 48px;
+}
+
+.card {
+  min-width: 480px;
+}
+
+.form {
+  padding: 16px;
+}
+
+.formItem div {
+  margin: 5px 0;
+}
+

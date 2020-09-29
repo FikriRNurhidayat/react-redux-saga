@@ -14,7 +14,7 @@ export default () => [
   {
     title: 'Schedule',
     key: 'schedule',
-    url: '/dashboard/schedules',
+    url: '/dashboard/schedule',
     icon: CalendarOutlined,
   },
   {
